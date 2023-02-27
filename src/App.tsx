@@ -1,7 +1,7 @@
 import './App.css'
 import { Rating } from './components/Rating'
 
-function App() {
+const App: React.FC = () => {
   
   return (
     <Rating /> 
