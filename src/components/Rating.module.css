@@ -1,0 +1,84 @@
+.panel {
+    background: #1e242e;
+    padding: 40px;
+    width: 350px;
+    height: 350px;
+    border-radius: 40px;
+    text-align: left;
+}
+
+.star {
+    background: #272e3f;
+    border-radius: 30px;
+    padding: 10px;
+    
+}
+
+.title {
+    font-size: 32px;
+    margin-bottom: 4px;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.rating {
+    background: #272e3f;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.rating:hover {
+    background: lightgrey
+}
+
+.rating:focus {
+    background: orange
+}
+
+.submit {
+    width: 100%;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 20px;
+    background: orange
+}
+
+.submit:hover {
+    background: white;
+    color: orange;
+}
+
+.panelSubmitted {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #1e242e;
+    padding: 40px;
+    width: 350px;
+    height: 350px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.blessUp {
+    font-size: 100px;
+    margin-top: 0px;
+    margin-bottom: 15px
+}
+.ratingSubmitted {
+    background: #272e3f;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    border-radius: 15px;    
+    color: orange
+}
+
+
